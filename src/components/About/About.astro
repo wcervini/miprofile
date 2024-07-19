@@ -1,0 +1,31 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="/images/cartoon%20walter.png"
+			alt="Foto de perfil de Walter Cervini"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="Sobre mí" />
+			<p class="about__text">
+				Soy profesional de la Electronica, especializado en microprocesadores y Electronica Digital
+				Como apasionado desde la informatica, me he dedicado a la programacion comenzando por Basic,
+				Pascal, Delhpi. En la actualidad suelo programas con Python, donde las mayor parte de los proyectos
+				son Restful API. No obstante tambien desarrollo con Javascript, Typescript usando Node.
+				De las plataformas preferidas en Python uso Flask. y en el caso de Node NextJS, Astro, Svelte, React y VueJS
+				Me gustan mucho los perros, en particular los Pug Carlinos, y tengo una negrita que se llama Luna+
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>
