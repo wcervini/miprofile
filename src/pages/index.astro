@@ -7,7 +7,8 @@ import Header from '../components/header/Header.astro';
 import Hero from '../components/hero/Hero.astro';
 import Portfolio from '../components/Portfolio.astro';
 import Skills from '../components/skills/Skills.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from '@layouts/Layout.astro'
+
 ---
 
 <Layout title="Walter Cervini | Fullstack Developer">
@@ -16,7 +17,7 @@ import Layout from '../layouts/Layout.astro';
 		<Hero />
 		<About />
 		<Skills />
-		<!--<Portfolio />-->
+		<Portfolio />
 		<BlogHome />
 	</main>
 	<Footer/>

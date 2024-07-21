@@ -5,7 +5,7 @@
  * @param {()=>void} onerror
  * @returns {['rgb(0-255,0-255,0-255)', {red,green,blue}]}
  * @example
- * 	const [colorString, colorObject] = getIMGAverageColor(img, 1);
+ * 	const [colorString, colorObject] = getIMGAverageColor(images, 1);
  */
 export const getIMGAverageColor = (img, brightness = 1, onerror = () => {}) => {
 	// Se crea un canvas para poder acceder a los pixeles
